@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="stat-quiz" id="start-quiz">
+            <div class="quiz-intro">
+                <h3>Welcome to the Quiz!</h3>
+                <p>Test your knowledge with a variety of interesting questions!</p>
+            </div>
+            <button class="btn btn-success" id="startButton" onclick="StartQuiz()">Start Quiz</button>
+        </div>
+        <div id="Insruction" class="Insruction" style="display: none;">
+            <h3>Quiz Rules</h3>
+            <ul>
+                <li>15 seconds per question.</li>
+                <li>You cannot change your answer once selected.</li>
+                <li>No skipping questions.</li>
+                <li>Earn points for correct answers.</li>
+            </ul>
+            <button class="btn btn-danger" onclick="resetQuiz()">Reset Quiz</button>
+            <button class="btn btn-success" onclick="startQuizWithInstruction()">Start Quiz</button>
+        </div>
+
+        <div id="quiz" style="display: none;">
+            <div class="timer">
+                <h3>Time left:</h3>
+                <span id="counting">15</span>
+            </div>
+            <div class="progress" style="height: 7px;">
+                <div class="progress-bar" id="questionProgressBar" style="width: 100%;"></div>
+            </div>
+            <div class="question" id="question">Loading...</div>
+            <ul id="options"></ul>
+            <button class="btn btn-info" id="nextButton" onclick="nextQuestion()" disabled>Next Question</button>
+        </div>
+
+        <div id="result" class="result-container" style="display: none;">
+            <h2>Quiz Completed</h2>
+            <p>Your score: <span id="score"></span></p>
+            <button class="btn btn-success" onclick="restartQuestion()">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

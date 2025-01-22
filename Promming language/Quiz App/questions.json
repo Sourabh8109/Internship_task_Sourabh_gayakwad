@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which attribute is used to specify the character encoding for an HTML document?",
+    "options": ["<meta charset='UTF-8'>", "<meta http-equiv='charset' content='UTF-8'>", "<encoding='UTF-8'>", "<meta content='UTF-8' charset='true'>"],
+    "answer": 0
+  },
+  {
+    "question": "Which HTML element is used to define the navigation links of a website?",
+    "options": ["<nav>", "<navigation>", "<menu>", "<links>"],
+    "answer": 0
+  },
+  {
+    "question": "How can you make an HTML element's content editable by the user?",
+    "options": ["<div contenteditable='true'>", "<div editable='true'>", "<div editable='yes'>", "<content editable='true'>"],
+    "answer": 0
+  },
+  {
+    "question": "What does the 'defer' attribute do when used with a <script> tag in HTML?",
+    "options": ["Delays script execution until the document has finished loading", "Executes the script immediately", "Makes the script run asynchronously", "Runs the script in a separate thread"],
+    "answer": 0
+  },
+  {
+    "question": "Which HTML tag is used to display an image?",
+    "options": ["<image>", "<img>", "<src>", "<pic>"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the 'alt' attribute in an <img> tag?",
+    "options": ["It specifies the source of the image", "It sets the image size", "It provides alternative text for the image", "It adds a caption to the image"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is the correct way to create a hyperlink that opens in a new tab?",
+    "options": ["<a href='url' target='_blank'>", "<a href='url' target='new'>", "<a href='url' target='_new'>", "<a href='url' window='new'>"],
+    "answer": 0
+  },
+  {
+    "question": "Which HTML element is used to define a table header?",
+    "options": ["<th>", "<thead>", "<header>", "<tr>"],
+    "answer": 0
+  },
+  {
+    "question": "What is the purpose of the 'aria-label' attribute in HTML?",
+    "options": ["It provides an alternative text for accessibility purposes", "It defines the label for a form element", "It links to an external label", "It defines the ID of the element"],
+    "answer": 0
+  },
+  {
+    "question": "What is the correct HTML tag for embedding a video?",
+    "options": ["<movie>", "<video>", "<embed>", "<media>"],
+    "answer": 1
+  }
+]
